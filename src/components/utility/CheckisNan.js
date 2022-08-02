@@ -1,11 +1,11 @@
-const CheckisNan=(x) =>{
-  const notanum=x
-  
-  if (isNaN(notanum)){
-    alert("enter a numeric value") 
+const CheckisNan = (x) => {
+  const notanum = x
+
+  if (isNaN(notanum)) {
+    alert("enter a numeric value")
     return (true)
-}else{
+  } else {
     return (false)
-}
+  }
 }
 export default CheckisNan

@@ -6,7 +6,7 @@ function GetDataFromLS() {
   else {
     return []
   }
-  
+
 }
 
 export default GetDataFromLS
